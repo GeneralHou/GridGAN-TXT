@@ -19,3 +19,4 @@ After the train of the model has finished, run the command below to check the te
 ```bash
 python test.py --name GridGAN-TXT --dataroot ./datasets/GridData-TXT --n_downsample_global 4 --n_blocks_global 9 --which_epoch latest
 ```
+Note: Only the core file is shown here. The mutual call relationships between the core file and other files are identical to those in GridGAN. For further details, refer to https://github.com/GeneralHou/OA_GridGAN.
